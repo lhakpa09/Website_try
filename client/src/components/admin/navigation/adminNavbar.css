@@ -30,9 +30,9 @@
     color: red;
 }
 
-.quote-button {
-    background-color: black;
+.buttons{
     color: white;
+    background-color: green;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -40,6 +40,7 @@
     transition: background-color 0.3s;
 }
 
-.quote-button:hover {
-    background-color: red;
+buttons:hover {
+    background-color: black ;
+    color: wheat;
 }

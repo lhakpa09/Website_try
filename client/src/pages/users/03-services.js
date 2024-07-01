@@ -4,7 +4,7 @@ import './03-services.css';
 function Service() {
     return (
     <div className='body'>
-        <div class="home-container">
+        <div class="service_container">
             <div class="services-section">
                 <h2>Our Data Science Services</h2>
                 <p>Nepal’s top-ranking data science firm offers every high-quality solution <br />

@@ -3,7 +3,7 @@ import { useSelector } from "react-redux"
 import Home from "../pages/users/01-home"
 import AboutUs from "../pages/users/02-aboutUs"
 import Services from "../pages/users/03-services"
-import ContactUs from "../pages/users/04-contactUs"
+import ContactUs from "../pages/users/04-req.js"
 import UserNavBar from "../components/user/navigation/useNavBar"
 import AdminSignupPage from "../pages/admin/auth/01-adminSignUpPage"
 import AdminLoginPage from "../pages/admin/auth/02-adminLoginPage"
@@ -32,9 +32,9 @@ const UserRoutes = () =>{
             <Route path='/admin-login' element={<AdminLoginPage/>}/>
 
             <Route path='/' element={<Home/>}/>
-            <Route path='/aboutus' element={<AboutUs/>}/>
+            <Route path='/about-us' element={<AboutUs/>}/>
             <Route path='/service' element={<Services/>}/>
-            <Route path='/contactus' element={<ContactUs/>}/>
+            <Route path='/get-quote' element={< ContactUs/>}/>
         </Routes>
         </>
     )
