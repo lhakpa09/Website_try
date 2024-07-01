@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0 150px; 
+}
+
+.logo {
+    cursor: pointer;
+}
+.logo img{
+    height: 70px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-links p {
+    margin: 0;
+    cursor: pointer;
+    color: black;
+    transition: color 0.3s;
+}
+
+.nav-links p:hover {
+    color: red;
+}
+
+.quote-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.quote-button:hover {
+    background-color: red;
+}
