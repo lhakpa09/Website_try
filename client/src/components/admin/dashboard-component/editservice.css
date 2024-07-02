@@ -42,9 +42,11 @@ body {
     gap: 10px;
 }
 
-.qty input {
+.qty p {
     width: 30px;
     text-align: center;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .qty-btn {
